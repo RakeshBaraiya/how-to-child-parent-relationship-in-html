@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,intital-scale=1.0">
+        <title> child Perent Relationship</title>
+        <style>
+            div#p1{
+                width:500px;
+                height:500px;
+                background:red;
+            }
+            div#c1{
+                width:250px;
+                height:250px;
+                background:green;
+            }
+            div#c2{
+                width:250px;
+                height:250px;
+                background:blue;
+            }
+            #p1:hover #c1{
+                background:purple;
+                border-radius:250px;
+
+            }
+            #p1:hover #c2{
+                background:gray;
+                border-radius: 250px;
+            }
+            #cc1{
+                width:100px;
+                height:100px;
+                background:yellow;
+            }
+            #p1:hover #cc1{
+                background:pink;
+                border-radius:100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="p1">
+            <div id="c1">
+                <div id="cc1"></div>
+            </div>
+            <div id="c2"></div>
+        </div>
+    </body>
+</html>
